@@ -1,0 +1,46 @@
+*{
+    background-image:url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    place-items: center;
+    align-items: center;
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    align-content: center;
+    height: 100vh;
+    flex-direction: row;
+}
+.one h1{
+   font-size: 32px;
+   color: white;
+
+}
+.one p{
+    font-size: 16px;}
+
+button .ft{
+    
+    border-radius: 10px;
+    background-color: hsl(154, 59%, 51%);
+}
+button
+{
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    width: auto;
+}
+input{
+    border-radius: 10px;
+
+}
